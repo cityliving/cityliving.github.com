@@ -1,0 +1,1 @@
+define("collections/PlacesCollections",["models/PlacesModel"],function(e){var t=Backbone.Collection.extend({model:e,initialize:function(){}});return new t});

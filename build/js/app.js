@@ -1,0 +1,1 @@
+define("app",["router"],function(e){console.log("App initialized.");var t=function(){new e,Backbone.history.start()};return{initialize:t}});
