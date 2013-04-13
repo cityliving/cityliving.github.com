@@ -5,7 +5,7 @@
 	<a class="posted-loc" title="Location"><i class="icon-map-pin-fill"></i>&nbsp; <%= posted_location %></a>
 	<a class="posted-cat" title="Category"><i class="icon-tag"></i>&nbsp; <%= category %></a>
 	<a class="posted-type" title="Type"><i class="icon-link-3"></i>&nbsp; <%= type %></a>
-	<a class="posted-comment" title="Comments" href="http://pneftali.github.com/city-living<%= url %>">
+	<a class="posted-comment" title="Comments" href="<%= url %>"><%= place_name %>">
 		<i class="icon-comment"></i>&nbsp; 
 		<fb:comments-count href=http://pneftali.github.com/city-living<%= url %>></fb:comments-count> posts
 	</a>
@@ -58,7 +58,7 @@
 <div class="c-box-right collage">
 	<div class="info-box">
 		<div class="info-content box">
-			<h3><a href=".<%= url %>"><%= place_name %></a></h3>
+			<h3><a href="<%= url %>"><%= place_name %></a></h3>
 			<p><%= place_details %></p>			
 		</div>
 	</div>
